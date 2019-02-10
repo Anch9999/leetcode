@@ -3,4 +3,4 @@
 
 | No. | Title | Code | Basic idea | Level |
 | -------- | -------- | -------- | --------| --------|
-| 1     | [Two Sum](https://leetcode.com/problems/two-sum/)     | [Python](https://github.com/Anch9999/leetcode/python/0001_two_sum.py)  | Hashmap| Easy |
+| 1     | [Two Sum](https://leetcode.com/problems/two-sum/)     | [Python](https://github.com/Anch9999/leetcode/blob/master/python/0001_two_sum.py)  | Hashmap| Easy |
