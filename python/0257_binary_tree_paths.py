@@ -1,13 +1,16 @@
 from utils.binary_tree_helper import arr_to_binary_tree_helper
 # Definition for a binary tree node.
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
 
+
 class Solution:
-    def binaryTreePaths(self, root: 'TreeNode') -> 'List[str]':
+    def binaryTreePaths(self, root: 'TreeNode'):
 
         def path_helper(cur, res, temp, level):
             if cur:
@@ -32,8 +35,9 @@ class Solution:
         path_helper(root, res, [], 0)
         return res
 
+
 if __name__ == '__main__':
     # begin
     s = Solution()
-    arr = [1,2,3,None,5]
+    arr = [1, 2, 3, None, 5]
     print(s.binaryTreePaths(arr_to_binary_tree_helper(arr)))
