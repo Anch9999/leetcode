@@ -1,4 +1,4 @@
-from utils.linked_list_helper import ListNode
+from utils.node_helper import ListNode
 
 
 class Solution:
